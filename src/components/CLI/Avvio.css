@@ -1,0 +1,129 @@
+
+#ascii-container {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #titoloSito {
+    font-family: monospace;
+    white-space: pre;
+    line-height: 1;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+    transform-origin: center center;
+    font-size: 10px; 
+  }
+  
+  @media screen and (max-width: 1550px) {
+    #titoloSito {
+      transform: scale(0.9);
+      font-size: 9px;
+    }
+  }
+  
+  @media screen and (max-width: 1250px) {
+    #titoloSito {
+      transform: scale(0.8);
+      font-size: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    #titoloSito {
+      transform: scale(0.7);
+      font-size: 7px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    #titoloSito {
+      transform: scale(0.6);
+      font-size: 6px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    #titoloSito {
+      transform: scale(0.5);
+      font-size: 4.9px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #titoloSito {
+      transform: scale(0.4);
+      font-size: 5.8px;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    #titoloSito {
+      transform: scale(0.4);
+      font-size: 5.2px;
+    }
+  }
+  @media screen and (max-width: 349px) {
+    #titoloSito {
+      transform: scale(0.4);
+      font-size: 5px;
+    }
+  }
+  @media screen and (max-width: 337px) {
+    #titoloSito {
+      transform: scale(0.4);
+      font-size: 4px;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    #titoloSito {
+      transform: scale(0.4);
+      font-size: 3px;
+    }
+  }
+
+.console-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.console-output {
+  font-family: 'Courier New', monospace;
+  padding: 1rem;
+  margin: 0;
+  white-space: pre-line;
+  font-size: 14px;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .console-output {
+    font-size: 12px;
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .console-output {
+    font-size: 10px;
+    padding: 0.5rem;
+  }
+  
+  .console-container {
+    border-radius: 2px;
+  }
+}
+@media (max-width: 210px) {
+  #titoloSito {
+      transform: scale(0.4);
+      font-size: 2px;
+    }
+}

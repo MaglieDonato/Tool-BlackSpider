@@ -1,0 +1,32 @@
+.more-about-container {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.more-about-text {
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 660px) {
+    .more-about-text {
+        font-size: 12px;
+        transform: scale(1);
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .more-about-text {
+    font-size: 10px;
+        transform: scale(1);
+        padding: 6px;
+    }
+}

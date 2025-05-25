@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'PerfectDOS';
+  src: url('/public/Perfect\ DOS\ VGA\ 437.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'PerfectDOS', monospace;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  cursor: url('./components/Cursor.cur'), auto ;
+  background-color: black;
+}

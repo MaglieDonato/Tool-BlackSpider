@@ -1,0 +1,52 @@
+.help-container {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.help-text {
+    white-space: pre-wrap;          /* Mantiene gli a capo */
+    word-wrap: break-word;          /* Spezza le parole lunghe */
+    overflow-x: hidden;             /* Niente scroll orizzontale */
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Breakpoints per responsività */
+@media screen and (max-width: 660px) {
+    .help-text {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .help-text {
+        font-size: 10px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .help-text {
+        font-size: 9px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .help-text {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .help-text {
+        font-size: 7px;
+        padding: 4px;
+    }
+}

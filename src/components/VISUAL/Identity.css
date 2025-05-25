@@ -1,0 +1,87 @@
+.identity-container {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  color: #00ff9d;
+  padding: 2rem;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.identity-header {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.identity-header h1 {
+  font-size: 1.5rem;
+  color: #00ff9d;
+}
+
+.identity-panel {
+  width: 100%;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  border: 1px solid #00ff9d;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px #00ffcc30;
+}
+
+.identity-description {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.identity-section-title {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  color: #00ff9d;
+  border-bottom: 1px solid #00ffcc50;
+  padding-bottom: 0.3rem;
+}
+
+.identity-list {
+  list-style: none;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.identity-list li::before {
+  content: "▸ ";
+  color: #00ff9d;
+  margin-right: 5px;
+}
+
+.identity-footer {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.identity-button {
+  display: block;
+  margin: 2rem auto 0;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  color: #0f0f0f;
+  background-color: #00ffcc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.identity-button:hover {
+  background-color: #00ddb3;
+}
